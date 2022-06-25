@@ -12,7 +12,7 @@ contract LotsOfLaugh is ERC721, ERC721Enumerable, ERC721Royalty, Ownable {
     /**
      * Token
      */
-    uint256 public constant MAX_SUPPLY = 100;
+    uint256 public constant MAX_SUPPLY = 3;
 
     constructor() ERC721("LotsOfLaugh", "LOL") {
     }

@@ -17,15 +17,15 @@ contract(SmartContractName, (accounts) => {
             assert.equal(saleIsActive, false, "The sale must be disabled.");
         }); 
 
-        it("is Max Supply 100?", async () => {
+        it("is Max Supply 3?", async () => {
             const MAX_SUPPLY = await sc.MAX_SUPPLY();
-            assert.equal(MAX_SUPPLY, 100, "The max supply must be 100.");
+            assert.equal(MAX_SUPPLY, 3, "The max supply must be 3.");
         }); 
 
-        it("is Max Public Mint 22", async () => {
-            await sc.setMaxPublicMint(22);
+        it("is Max Public Mint 1", async () => {
+            await sc.setMaxPublicMint(1);
             const MAX_PUBLIC_MINT = await sc.MAX_PUBLIC_MINT();
-            assert.equal(MAX_PUBLIC_MINT, 22, "The max public mint must be 22");
+            assert.equal(MAX_PUBLIC_MINT, 1, "The max public mint must be 1");
         }); 
         
         it("is Mint Price 0.08 ETH?", async () => {
@@ -50,11 +50,11 @@ contract(SmartContractName, (accounts) => {
 
     describe("lets test the utils", async () => {
         it("lets reserve the NFTs", async () => {
-            await sc.reserve(10);
+            await sc.reserve(1);
         });
 
         it("lets test max reserve function of NFTs", async () => {
-            await sc.reserve(5010);
+            await sc.reserve(4);
         });
 
         it("test withdraw amount", async () => {

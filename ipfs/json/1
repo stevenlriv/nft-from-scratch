@@ -1,0 +1,19 @@
+{
+  "name": "Lots Of Laugh #1",
+  "description": "Some funny NFT",
+  "image": "ipfs://IPFS_HASH/1.png",
+  "dna": "d64945d21aa161676a91ca9c455d59bcb3055e08",
+  "edition": 1,
+  "date": 1655755371446,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red"
+    }
+  ],
+  "compiler": "by fun people"
+}

@@ -4,7 +4,8 @@ This is an outline of how an NFT project launch should work.
 
 ## 0. Prep work
 
-Install [Node.js](https://nodejs.org/) to run.
+- Install [Node.js](https://nodejs.org/) to run.
+- Create a new folder to work on it
 
 ## 1. Create the Smart Contract and test it
 
@@ -37,7 +38,9 @@ truffle run verify [CONTRACT_NAME] --network [network-name]
 ## 2. Generate all NFTs JPEGS with Jsons
 
 - Create your art in .png formart and put it ready for IPFS
-- Upload the jsons and upload the images
+- Upload the images
+- Get the hash and put it in the json file
+- Then upload el json file a IPFS
 
 ## 3. Create provenance using hash.php scripts
 
