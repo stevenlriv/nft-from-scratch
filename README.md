@@ -29,7 +29,7 @@ npm install @openzeppelin/contracts
 
 - Create the deployment .js file using 2_deploy_contracts.js
 
-- Test It
+- Create test files and test it
 
 ```
 truffle test
