@@ -2,6 +2,8 @@
 
 This is an outline of how an NFT project launch should work.
 
+**Do not use the keys in the secrets.json
+
 ## 0. Prep work
 
 - Install [Node.js](https://nodejs.org/) to run.
@@ -20,12 +22,14 @@ npm install @openzeppelin/contracts
 
 - Configure the project using truffle-config.js as a template
 
+- Get all the APIs for the secret file (mnemonic, infura, etherscan)
+
 - Create the NFT using contact.sol as a template
 
 - Test It
 
 ```
-`truffle test`
+truffle test
 ```
 
 - Deploy It
@@ -40,7 +44,7 @@ truffle run verify [CONTRACT_NAME] --network [network-name]
 - Create your art in .png formart and put it ready for IPFS
 - Upload the images
 - Get the hash and put it in the json file
-- Then upload el json file a IPFS
+- Then upload the json file a IPFS
 
 ## 3. Create provenance using hash.php scripts
 
