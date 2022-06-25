@@ -16,7 +16,8 @@ This is an outline of how an NFT project launch should work.
 - Install dependencies
 
 ```
-npm install -g truffle
+npm install truffle 
+truffle init
 npm install truffle-hdwallet-provider
 npm install truffle-plugin-verify
 npm install @openzeppelin/contracts
@@ -25,6 +26,8 @@ npm install @openzeppelin/contracts
 - Configure the project using truffle-config.js as a template
 
 - Create the NFT using contact.sol as a template
+
+- Create the deployment .js file using 2_deploy_contracts.js
 
 - Test It
 
