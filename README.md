@@ -9,17 +9,16 @@ This is an outline of how an NFT project launch should work.
 - Install [Node.js](https://nodejs.org/) to run.
 - Create a new folder to work on it
 
-- Get all the APIs for the secret file (mnemonic, infura, etherscan)
-
 ## 1. Create the Smart Contract and test it
 
 - Install dependencies
 
 ```
 npm install truffle 
-truffle init
-npm install truffle-hdwallet-provider
+npx truffle init
+npm install @truffle/hdwallet-provider
 npm install truffle-plugin-verify
+npm install ethers
 npm install @openzeppelin/contracts
 ```
 
@@ -29,17 +28,19 @@ npm install @openzeppelin/contracts
 
 - Create the deployment .js file using 2_deploy_contracts.js
 
+- Create the secrets.json file and get all the APIs for the secret file (mnemonic, infura, etherscan)
+
 - Create test files and test it
 
 ```
-truffle test
+npx truffle test
 ```
 
 - Deploy It
 
 ```
-truffle migrate --network [network-name]
-truffle run verify [CONTRACT_NAME] --network [network-name]
+npx truffle migrate --network [network-name]
+npx truffle run verify [CONTRACT_NAME] --network [network-name]
 ```
 
 ## 2. Generate all NFTs JPEGS with Jsons
@@ -92,13 +93,13 @@ Enter the console in the terminal
 For local host 
 
 ```
-truffle console 
+npx truffle console 
 ```
 
 For any other network
 
 ```
-truffle console --network [network-name]
+npx truffle console --network [network-name]
 ```
 
 In the console type the address of your smart contract 
