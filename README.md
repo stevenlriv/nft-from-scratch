@@ -2,12 +2,14 @@
 
 This is an outline of how an NFT project launch should work.
 
-**Do not use the keys in the secrets.json
+**Do not use the keys in the secrets.json they were already exposed to the public
 
 ## 0. Prep work
 
 - Install [Node.js](https://nodejs.org/) to run.
 - Create a new folder to work on it
+
+- Get all the APIs for the secret file (mnemonic, infura, etherscan)
 
 ## 1. Create the Smart Contract and test it
 
@@ -21,8 +23,6 @@ npm install @openzeppelin/contracts
 ```
 
 - Configure the project using truffle-config.js as a template
-
-- Get all the APIs for the secret file (mnemonic, infura, etherscan)
 
 - Create the NFT using contact.sol as a template
 
