@@ -4,6 +4,8 @@ This is an outline of how an NFT project launch should work.
 
 **Do not use the keys in the secrets.json they were already exposed to the public
 
+**Zoom class link [https://us06web.zoom.us/rec/share/ZTeDSj1VlUNzfQjyym6IuRYYRSNF9Ul3r5Vg-zzJkgcp50b5w4FkQuqm0XxFD92w.67o2UYj0bIUl43Kv?startTime=1656177211000](https://us06web.zoom.us/rec/share/ZTeDSj1VlUNzfQjyym6IuRYYRSNF9Ul3r5Vg-zzJkgcp50b5w4FkQuqm0XxFD92w.67o2UYj0bIUl43Kv?startTime=1656177211000)
+
 ## 0. Prep work
 
 - Install [Node.js](https://nodejs.org/) to run.
